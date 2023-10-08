@@ -22,8 +22,8 @@ var options = new UsernamePasswordCredentialOptions
     AuthorityHost = AzureAuthorityHosts.AzurePublicCloud,
 };
 
-var userName = "program@rrorbit.in";
-var password = "password*900";
+var userName = "program@yourdomain.com";
+var password = "*****";
 
 // https://learn.microsoft.com/dotnet/api/azure.identity.usernamepasswordcredential
 var userNamePasswordCredential = new UsernamePasswordCredential(
